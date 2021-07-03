@@ -14,4 +14,5 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
 # git clone https://github.com/liuran001/openwrt-packages
-git clone https://github.com/liuran001/openwrt-packages feeds/luci/applications
+git clone git clone https://github.com/frainzy1477/luci-app-clash.git ./feeds/luci/applications/luci-app-clash
+git clone https://github.com/alloneinfo/luci-app-zerotier ./feeds/luci/applications/luci-app-zerotier
