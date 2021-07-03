@@ -13,8 +13,5 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
-git clone https://github.com/maxlicheng/luci-app-unblockmusic.git
-git clone https://github.com/alloneinfo/luci-app-zerotier.git
-git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
-#svn co --force https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-softethervpn.git && svn revert -R package/luci-app-softethervpn
+svn co https://github.com/liuran001/openwrt-packages/branches/packages
 
