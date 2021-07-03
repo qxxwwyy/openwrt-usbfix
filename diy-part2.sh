@@ -16,5 +16,5 @@
 git clone https://github.com/maxlicheng/luci-app-unblockmusic.git
 git clone https://github.com/alloneinfo/luci-app-zerotier.git
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
-git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-softethervpn.git
+svn co --force https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-softethervpn.git && svn revert -R package/luci-app-softethervpn
 
